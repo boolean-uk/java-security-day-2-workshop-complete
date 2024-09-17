@@ -35,4 +35,8 @@ public class Book {
         this.year = year;
         this.genre = genre;
     }
+
+    public Book(int id) {
+        this.id = id;
+    }
 }
